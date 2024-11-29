@@ -48,7 +48,7 @@ export function ChatHeader({ selectedModelId }: { selectedModelId: string }) {
           target="_noblank"
         >
           <VercelIcon size={16} />
-          Deploy with Vercel
+          Try Premium
         </Link>
       </Button>
     </header>
