@@ -17,11 +17,12 @@ export const Overview = () => {
         <p className="flex flex-row justify-center gap-4 items-center">
 {/*           <VercelIcon size={32} />
           <span>+</span> */}
-          <MessageIcon size={32} />
+          <MessageIcon size={48} />
         </p>
-        <p>
+        <h1>Prompt Your Wish !</h1>
+{/*         <p>
           How Can I Help You ?
-{/*           <Link
+           <Link
             className="font-medium underline underline-offset-4"
             href="https://github.com/vercel/ai-chatbot"
             target="_blank"
@@ -33,19 +34,19 @@ export const Overview = () => {
           <code className="rounded-md bg-muted px-1 py-0.5">streamText</code>{' '}
           function in the server and the{' '}
           <code className="rounded-md bg-muted px-1 py-0.5">useChat</code> hook
-          on the client to create a seamless chat experience. */}
+          on the client to create a seamless chat experience.
         </p>
         <p>
           Prompt Your Wish !
-{/*           <Link
+          <Link
             className="font-medium underline underline-offset-4"
             href="https://sdk.vercel.ai/docs"
             target="_blank"
           >
             docs
           </Link>
-          . */}
-        </p>
+          .
+        </p> */}
       </div>
     </motion.div>
   );
