@@ -19,7 +19,7 @@ export const Overview = () => {
           <span>+</span> */}
           <MessageIcon size={48} />
         </p>
-        <h1>Prompt Your Wish !</h1>
+        <h1>How Can I Help You ?</h1>
 {/*         <p>
           How Can I Help You ?
            <Link
